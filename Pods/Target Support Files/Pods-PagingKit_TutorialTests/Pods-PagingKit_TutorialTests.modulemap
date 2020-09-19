@@ -1,0 +1,6 @@
+framework module Pods_PagingKit_TutorialTests {
+  umbrella header "Pods-PagingKit_TutorialTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

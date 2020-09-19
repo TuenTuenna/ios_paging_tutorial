@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_PagingKit_Tutorial_PagingKit_TutorialUITests : NSObject
+@end
+@implementation PodsDummy_Pods_PagingKit_Tutorial_PagingKit_TutorialUITests
+@end
