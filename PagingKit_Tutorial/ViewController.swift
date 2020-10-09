@@ -61,6 +61,9 @@ class ViewController: UIViewController {
         menuViewController.cellAlignment = .center
         dataSource = makeDataSource()
         
+        // 컨텐트 스와이프 가능하도록 설정 
+        contentViewController.scrollView.isScrollEnabled = true
+        
     }
 
 
@@ -127,7 +130,8 @@ extension ViewController: PagingMenuViewControllerDataSource {
 // 메뉴 컨트롤 델리겟
 extension ViewController: PagingMenuViewControllerDelegate {
     func menuViewController(viewController: PagingMenuViewController, didSelect page: Int, previousPage: Int) {
-        contentViewController.scroll(to: page, animated: true)
+//        contentViewController.scroll(to: page, animated: true)
+        contentViewController.scroll(to: page, animated: false)
     }
     
     
